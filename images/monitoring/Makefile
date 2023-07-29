@@ -1,6 +1,6 @@
 # Note: these can be overriden on the command line e.g. `make GRAF_VERSION=9.5.3 PROM_VERSION=v2.44.1`
-GRAF_VERSION="9.5.2"
-PROM_VERSION="v2.44.0"
+GRAF_VERSION="10.0.3"
+PROM_VERSION="v2.46.0"
 
 .PHONY: image
 
