@@ -4,8 +4,8 @@ PROM_VERSION="v2.46.0"
 
 .PHONY: image
 
-grafana-image := portainer/template-swarm-monitoring:grafana-$(GRAF_VERSION)
-prometheus-image := portainer/template-swarm-monitoring:prometheus-$(PROM_VERSION)
+grafana-image := harricross/template-swarm-monitoring:grafana-$(GRAF_VERSION)
+prometheus-image := harricross/template-swarm-monitoring:prometheus-$(PROM_VERSION)
 
 images:
 	docker run --privileged --rm tonistiigi/binfmt --install all
